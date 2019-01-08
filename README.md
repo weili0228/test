@@ -7,4 +7,6 @@ git push origin "分支名"
 git push origin tag
 
 使用方法
+在使用之前保证已经依赖远程仓库
+版本格式为vx.x.x
 ./gitpush.sh
