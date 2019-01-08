@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 asfihoihqo
+asjfoij
 safjoi
 iassaiofhjoiwqjeroi{
 	asjoiasjfo
