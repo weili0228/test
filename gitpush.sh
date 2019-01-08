@@ -34,12 +34,12 @@ echo "${gittag3}"
 gitstatus_results=`git status | grep '**'`
 if [[ $gitstatus_results =~ 'Changes not staged for commit:' ]];then
      git add .
-     git tag "$gittag3"
      git commit -am "${time}活动更新"
+	 git tag "$gittag3"
      echo -e "正在提交$git_branch 备注${comment} 版本 $gittag3\n"
-	git push "$git_branch"
+	git push origin "$git_branch"
 	echo "push code success"
-	git push "$gittag3
+	git push origin "$gittag3
 	echo "push tag success""
 fi
 
