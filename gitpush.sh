@@ -13,7 +13,7 @@ gittag2=${gittag:1:6}
 #万一版本<=10 将会获得 v9.8.12 如果版本更替到v9.9.99 脚本if判断需要修改
 T1=${gittag2:0:1}
 T2=${gittag2:2:1}
-T3=${gittag2:4:2}
+T3=${gittag2:4:1}
 echo "T1==${T1}"
 echo "T2==${T2}"
 echo "T3==${T3}"
