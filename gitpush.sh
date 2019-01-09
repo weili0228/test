@@ -38,9 +38,9 @@ if [[ $gitstatus_results =~ 'Changes not staged for commit:' ]];then
 	 git tag "$gittag3"
      echo -e "正在提交$git_branch 备注${comment} 版本 $gittag3\n"
 	git push origin "$git_branch"
-	echo "push code success"
+	echo "*********************push code success ******************************"
 	git push origin "$gittag3
-	echo "push tag success""
+	echo "*********************push tag success *******************************""
 fi
 
 echo "git push finish"
