@@ -6,7 +6,7 @@ git_branch=`git symbolic-ref --short -q HEAD | grep '**'` #具体的开发分支
 echo "分支${git_branch}"
 echo "section ${section}"
 time=$(date +%Y-%m-%d)
-comment="dr$time更新"
+comment="${time}dr活动更新"
 #获取最新tag v9.8.11
 gittag=`git log --tags --decorate --simplify-by-decoration | grep ^commit|grep tag|sed -e 's/^.*: //' -e 's/)$//'`
 gittag2=${gittag:1:6} 
