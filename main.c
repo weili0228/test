@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 asfihoihqo
+sahofihoihoi
+asdjfio
 asjoijoaspojdfposj
 
 safjdpoj
