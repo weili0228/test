@@ -42,5 +42,5 @@ if [[ $gitstatus_results =~ 'Changes not staged for commit:' ]];then
 	git push origin "$gittag3"
 	echo "*********************push tag success *******************************"
 fi
-echo "test1234"
+echo "test134"
 echo "git push finish"
